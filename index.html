@@ -23,38 +23,56 @@
             More Research
           </a>
           <div class="navbar-dropdown">
+            <a class="navbar-item" href="https://gaussianeditor.github.io/">
+              GaussianEditor
+            </a>
+            <a class="navbar-item" href="https://guanjunwu.github.io/4dgs/">
+              4D Gaussian Splatting
+            </a>
+            <a class="navbar-item" href="https://taoranyi.com/gaussiandreamer/">
+              GaussianDreamer
+            </a>
+            <a class="navbar-item" href="https://jumpat.github.io/SAGA/">
+              Segment Any 3D Gaussians
+            </a>
+            <a class="navbar-item" href="https://jumpat.github.io/SA3D/">
+              Segment Anything in 3D with NeRFs
+            </a>
+            <a class="navbar-item" href="https://jaminfong.cn/tineuvox/">
+              TiNeuVox
+            </a>
+            <a class="navbar-item" href="https://taoranyi.com/gneuvox/">
+              GNeuVox
+             </a>
+            <a class="navbar-item" href="https://jaminfong.cn/neusample/">
+              NeuSample
+            </a>
           </div>
         </div>
       </div>
   
     </div>
   </nav>
-
   <meta charset="utf-8">
   <meta name="description"
         content="Cascade-Zero123: One Image to Highly Consistent 3D with Self-Prompted Nearby Views">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Cascade-Zero123: One Image to Highly Consistent 3D with Self-Prompted Nearby Views</title>
-  
+
   <div class="container" style="max-width: 1024px; margin-bottom: 20px;">
             <h2 class="text-center"><b>ECCV 2024
   </div>
-              
+
   <script>
     window.dataLayer = window.dataLayer || [];
-
     function gtag() {
       dataLayer.push(arguments);
     }
-
     gtag('js', new Date());
-
     gtag('config', 'G-PYVRSFMDRL');
   </script>
-
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
         rel="stylesheet">
-
   <link rel="stylesheet" href="./static/css/bulma.min.css">
   <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
   <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
@@ -63,7 +81,6 @@
         href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
   <link rel="stylesheet" href="./static/css/index.css">
   <link rel="icon" href="../img/favicon.png">
-
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script defer src="./static/js/fontawesome.all.min.js"></script>
   <script src="./static/js/bulma-carousel.min.js"></script>
@@ -71,7 +88,6 @@
   <script src="./static/js/index.js"></script>
 </head>
 <body>
-
 <section class="hero">
   <div class="hero-body">
     <div class="container is-max-desktop">
@@ -80,14 +96,53 @@
           <h1 class="title is-1 publication-title">Cascade-Zero123:</br>
             One Image to Highly Consistent 3D</br>with Self-Prompted Nearby Views</h1>
           <div class="is-size-5 publication-authors">
-            Anonymous Authors
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?user=6aHx1rgAAAAJ&hl=zh-TW">Yabo Chen</a><sup>1</sup><sup>*</sup>,</span>
+            <span class="author-block">
+              <a href="https://jaminfong.cn/">Jiemin Fang</a><sup>2</sup><sup>*</sup>,</span>
+            <span class="author-block">
+              <a href="https://github.com/huangyuyang114">Yuyang Huang</a><sup>1</sup>,</span>
+            <span class="author-block">
+              <a href="https://taoranyi.com/">Taoran Yi</a><sup>3</sup>,</span>
+            <span class="author-block">
+              <a href="https://sites.google.com/site/zxphistory/">Xiaopeng Zhang</a><sup>2</sup>,</span></br>
+            <span class="author-block">
+              <a href="http://lingxixie.com/">Lingxi Xie</a><sup>2</sup>,</span>
+            <span class="author-block">
+              <a href="https://xwcv.github.io/">Xinggang Wang</a><sup>3</sup>,</span>
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?user=Xg8MhyAAAAAJ&hl=en">Wenrui Dai</a><sup>1</sup>,</span>
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?user=bB16iN4AAAAJ&hl=en&oi=ao">Hongkai Xiong</a></a><sup>4</sup>,</span>
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?hl=en&user=61b6eYkAAAAJ">Qi Tian</a><sup>2</sup></span>
           </div>
-
+          <div class="text-center">
+              <span class="author-block"><sup>1</sup>Department of Computer Science and Engineering, Shanghai Jiao Tong University</span></br>
+              <span class="author-block"><sup>2</sup>Huawei Inc.</span></br>
+              <span class="author-block"><sup>3</sup>Huazhong University of Science and Technology</span></br>
+              <span class="author-block"><sup>4</sup>Department of Electronic Engineering, Shanghai Jiao Tong University</span></br>
+              <!-- <p></p> -->
+          </div>
+          * <i>denotes equal contributions.</i>  </br>
+          <!-- <div class="is-size-5 publication-authors">
+            <span>ACM SIGGRAPH Asia 2022</span>
+          </div> -->
           <div class="column has-text-centered">
             <div class="publication-links">
               <!-- PDF Link. -->
+              <span class="link-block">
+                <a href="https://arxiv.org/abs/2312.04424"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
               <!-- Video Link. -->
               <span class="link-block">
+                <a href="https://youtu.be/R_FfdGl_BPo"
                 <a href="https://youtu.be/llKNi5YuiV8"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
@@ -96,7 +151,16 @@
                   <span>Video</span>
                 </a>
               </span>
-              
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href="https://github.com/AbrahamYabo/Cascade-Zero123"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span>
             </div>
           </div>
         </div>
@@ -104,7 +168,6 @@
     </div>
   </div>
 </section>
-
 <section class="section">
   <div class="container is-max-desktop">
     <!-- Abstract. -->
@@ -128,7 +191,6 @@
           However, the one-to-one manner adopted in Zero-1-to-3 incurs challenges for building geometric and visual consistency across views, especially for complex objects. We propose a cascade generation framework constructed with two Zero-1-to-3 models, named Cascade-Zero123, to tackle this issue, which progressively extracts 3D information from the source image. Specifically, a self-prompting mechanism is designed to generate several nearby views at first. These views are then fed into the second-stage model along with the source image as generation conditions. With self-prompted multiple views as the supplementary information, our Cascade-Zero123 generates more highly consistent novel-view images than Zero-1-to-3.
           The promotion is significant for various complex and challenging scenes, involving insects, humans, transparent objects, and stacked multiple objects .etc.
         </div>
-
         <h2 class="title is-3">Framework</h2>
         <div class="content has-text-justified">
           The architecture of Cascade-Zero123. Cascade-Zero123 can be divided into two parts. The left part is Base-0123, which takes a
@@ -140,11 +202,9 @@
         <p align="center">
           <image width="100%" src="image/method.png" class="img-responsive" alt="overview">
         </p>
-
       </div>
     </div>
     <!--/ Abstract. -->
-
     <!-- Paper video. -->
     <!-- <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
@@ -159,7 +219,6 @@
     <!--/ Paper video. -->
   </div>
 </section>
-
 <section class="section">
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
@@ -182,7 +241,6 @@
     </div>
   </div>
 </section>
-
 <section class="section">
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
@@ -205,7 +263,6 @@
     </div>
   </div>
 </section>
-
 <section class="section">
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
@@ -228,8 +285,6 @@
     </div>
   </div>
 </section>
-
-
 <section class="section">
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
@@ -246,21 +301,17 @@
     </div>
   </div>
 </section>
-
-  <section class="section" id="BibTeX">
-        <div class="container is-max-desktop content">
-          <h2 class="title">BibTeX</h2>
-          <pre><code>
-    @inproceedings{chen2024cascadezero123,
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">Citation</h2>
+    <pre><code>@inproceedings{chen2024cascadezero123,
           author = {Yabo Chen, Jiemin Fang, Yuyang Huang, Taoran Yi, Xiaopeng Zhang, Lingxi Xie, Xinggang Wang, Wenrui Dai, Hongkai Xiong,and Qi Tian},
           title = {Cascade-Zero123: One Image to Highly Consistent 3D with Self-Prompted Nearby Views},
           year = {2024},
-          booktitle = {ECCV}
+          booktitle = {ECCV}}
    </code></pre>
     </div>
     </section>
-  
-
 <footer class="footer">
   <div class="container">
     <div class="columns is-centered">
@@ -274,6 +325,5 @@
     </div>
   </div>
 </footer>
-
 </body>
 </html>
