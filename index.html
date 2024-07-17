@@ -59,6 +59,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Cascade-Zero123: One Image to Highly Consistent 3D with Self-Prompted Nearby Views</title>
 
+  <style type="text/css">
+      #div1{
+        font-family: '等线';
+        font-size: 15px
+      }
+  </style>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag() {
@@ -98,7 +104,7 @@
             </font> 
           </div>
               
-          <div class="is-size-5 publication-authors">
+          <div class="is-size-5 publication-authors" id="div1">
             <b><font size="3">  
             <span class="author-block">
               <a href="https://scholar.google.com/citations?user=6aHx1rgAAAAJ&hl=zh-TW">Yabo Chen</a><sup>1</sup><sup>*</sup>,</span>
@@ -122,14 +128,14 @@
               <a href="https://scholar.google.com/citations?hl=en&user=61b6eYkAAAAJ">Qi Tian</a><sup>2</sup></span>
             </font> 
           </div>
-          <div class="text-center">
+          <div class="text-center" id="div1">
               <span class="author-block"><sup>1</sup>Department of Computer Science and Engineering, Shanghai Jiao Tong University</span></br>
               <span class="author-block"><sup>2</sup>Huawei Inc.</span></br>
               <span class="author-block"><sup>3</sup>Huazhong University of Science and Technology</span></br>
               <span class="author-block"><sup>4</sup>Department of Electronic Engineering, Shanghai Jiao Tong University</span></br>
               <!-- <p></p> -->
           </div>
-          * <i>denotes equal contributions.</i>  </br>
+          * <i id="div1">denotes equal contributions.</i>  </br>
           <!-- <div class="is-size-5 publication-authors">
             <span>ACM SIGGRAPH Asia 2022</span>
           </div> -->
@@ -190,14 +196,14 @@
         </p>
         
         <h2 class="title is-3">Abstract</h2>
-        <div class="content has-text-justified">
+        <div class="content has-text-justified" id="div1">
           Synthesizing multi-view 3D from one single image is a significant and challenging task.
           For this goal, Zero-1-to-3 methods aim to extend a 2D latent diffusion model to the 3D scope. These approaches generate the target-view image with a single-view source image and the camera pose as condition information. 
           However, the one-to-one manner adopted in Zero-1-to-3 incurs challenges for building geometric and visual consistency across views, especially for complex objects. We propose a cascade generation framework constructed with two Zero-1-to-3 models, named Cascade-Zero123, to tackle this issue, which progressively extracts 3D information from the source image. Specifically, a self-prompting mechanism is designed to generate several nearby views at first. These views are then fed into the second-stage model along with the source image as generation conditions. With self-prompted multiple views as the supplementary information, our Cascade-Zero123 generates more highly consistent novel-view images than Zero-1-to-3.
           The promotion is significant for various complex and challenging scenes, involving insects, humans, transparent objects, and stacked multiple objects .etc.
         </div>
         <h2 class="title is-3">Framework</h2>
-        <div class="content has-text-justified">
+        <div class="content has-text-justified" id="div1">
           The architecture of Cascade-Zero123. Cascade-Zero123 can be divided into two parts. The left part is Base-0123, which takes a
             set of R and T values as input to generate corresponding multi-view images. These output images are concatenated with the input condition
             image and its corresponding camera pose, forming a self-prompted input denoted as a set of c(xc, ∆R, ∆T ) for the right part Refiner-0123.
